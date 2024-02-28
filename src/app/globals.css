@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .headerList {
+    @apply text-sm font-semibold leading-6 hover:text-teal-200 duration-200 focus-within:outline-none;
+  }
+}
